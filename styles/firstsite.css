@@ -1,0 +1,325 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Rubik !important; 
+
+}
+
+.flutter{
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-nav{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.search-icon{
+  width: 16px;
+  height: 16px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+#intro{
+  background: linear-gradient(rgba(20, 23, 57, 0.7),rgba(18, 1, 46, 0)),
+  url('../icon/Frame\ 55.png') 0% 0%/cover no-repeat;
+  /* height: 100vh; */
+}
+.constraint-width {
+  max-width: 1300px;
+
+}
+
+@media (min-width: 400px) {
+  #intro{
+    /* height: 60vh !important; */
+    padding-bottom: 15px;
+  }  
+}
+
+@media (min-width: 576px) {
+  #intro {
+    height: 70vh !important;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 990px) {
+  #intro {
+    height: 100vh !important;
+    overflow-x: hidden;
+  }
+}
+
+.intro-innovation {
+  font-size: 55px !important; 
+  font-weight: 700;
+}
+@media (min-width: 576px) {
+  .intro-innovation {
+    font-size: 63px !important;
+  }
+}
+@media (min-width: 992px) {
+  .intro-innovation {
+    font-size: 96px !important; 
+  }
+}
+
+.intro-constructure {
+  font-size: 40px !important; 
+  font-weight: 400 !important;
+}
+@media (min-width: 576px) {
+  .intro-constructure {
+    font-size: 56px;
+  }
+}
+@media (min-width: 992px) {
+  .intro-constructure {
+    font-size: 64px; 
+  }
+}
+
+.lor{
+  text-align: justify;
+}
+
+.yellow-circle{
+  height: 75vh; 
+  width: 100vh;
+}
+@media (min-width: 576px) {
+  .yellow-circle {
+    width: 25vh;
+    height: 40vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .yellow-circle {
+    width: 40vw !important;
+    height: 70vh !important;
+  }
+}
+ 
+@media (min-width: 576px) {
+  .engineer {
+    width: 52vw !important;
+    margin-top: -200px !important;
+    height: 60vh;
+  } 
+}
+
+@media (min-width: 990px) {
+  .engineer{
+  width: 45vw !important;
+  height: 100vh;
+  max-height: 800px;
+  margin-top: -200px !important;
+  max-width: 690px !important;
+  }
+}
+
+#about{
+  background-color: white;
+  margin-top: 20px;
+  padding-top: auto;
+  padding-bottom: auto;
+  max-width: 1300px !important;
+}
+ 
+.about-images{
+
+}
+
+.line-horizontal{
+  height: 8px;
+  background: linear-gradient(90deg,#F9D949, #CF8752, #A6378A);
+}
+
+.line-vertical-a{
+  width: 8px !important;
+  background: linear-gradient(#F9D949, #CF8752, #A6378A);
+  float: left;
+  height: 50px !important;
+}
+
+.line-vertical{
+  width: 8px !important;
+  background: linear-gradient(#F9D949, #CF8752, #A6378A);
+  float: left;
+  height: 80px !important;
+  
+}
+
+.hor-bor{
+ width: 100%;
+ float: right;
+}
+
+#we-can{
+  background-color: #001B2A;
+}
+
+.settings{
+  background-color: #062344
+}
+
+#our-services{
+ 
+}
+
+.line-horizontal-2 {
+  height: 8px;
+  width: 100px;
+  background: linear-gradient(90deg,#F9D949, #CF8752, #A6378A);
+}
+
+@media screen and (min-width: 380px) {
+  .col-card {
+    width: 90% !important;
+      margin: 20px !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .col-card {
+    width: 45% !important;
+      margin: 15px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .col-card {
+    width: 20% !important;
+    margin-top: 10px !important;
+  }
+}
+
+.card-text{
+  color: #8C8C89;
+}
+
+.int-vid{
+  font-family: Josefin Sans !important;
+  font-weight: 700 !important;
+}
+
+#we-have{
+  background-color: #001B2A;
+}
+
+.engineer-man{
+  width: 200px !important;
+}
+
+.mane{
+
+}
+
+.social-icons{
+  width: 15px;
+}
+
+.social-iconsb{
+  width: 25px;
+  background-color: #7893BB;
+}
+
+.line-vertical-2{
+  width: 5px !important;
+  background: linear-gradient(#F9D949, #CF8752, #A6378A);
+  height: 23px;
+  margin-top: -4px;
+}
+
+#portfolio{
+ height: 30vh;
+  background-color: #001B2A !important;
+
+}
+
+.big-white{
+  height: 100vh !important;
+  background-color: #CF8752;
+}
+
+.text{
+  position: relative;
+}
+
+.empty-div{
+  width: 50px !important;
+  background: linear-gradient(90deg,#F9D949, #CF8752, #A6378A);
+}
+
+
+@media screen and (min-width: 190px) {
+  .house-img{
+      width: 93.5vw !important;
+    }
+  }
+
+@media screen and (min-width: 576px) {
+  .house-img{
+    width: 90vw !important;
+    padding-right: 46px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+.house-img{
+  width: 48vw !important;
+  margin-bottom: 15px !important;
+  }
+}
+
+@media screen and (min-width: 190px) {
+  .picture{
+    width: 46vw !important;
+    }
+  }
+
+@media screen and (min-width: 576px) {
+  .picture{
+    width: 42vw !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+.picture{
+  width: 23.38vw !important;
+  margin-bottom: 15px !important;
+  }
+}
+
+
+#footer{
+  max-width: 1300px !important;
+}
+
+
+
+.email-button{
+  background-color: #7893BB !important;
+
+}
+
+#copyright{
+  background-color: #062344;
+  height: 15vh;
+}
+
+.negative-margin{
+  margin-top: -140px;
+}
+
+@media (min-width: 1990px) {
+  .negative-margin{
+    margin-top: -300px
+  }
+}
